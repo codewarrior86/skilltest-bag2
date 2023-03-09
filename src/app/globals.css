@@ -85,7 +85,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -93,7 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 a {
   color: inherit;
@@ -105,3 +105,40 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* =================================== */
+
+.container{
+  margin-inline: 20vw;
+}
+
+section{
+  margin-top: 50px;
+}
+
+section h1{
+  margin-bottom: 30px;
+}
+
+.input_angka{
+  width: 300px;
+  padding: 5px;
+}
+
+ul{
+  margin-top: 30px;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom:30px;
+}
+
+
+.bold{
+  font-weight: 600;
+}
+
+
+
